@@ -1,1 +1,34 @@
-
+body {
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+	font-size:61px;
+}
+h2 {
+	font-size:53px;
+}
+h3 {
+	font-size:40px;
+}
+h4 {
+	font-size:29px;
+}
+h5 {
+	font-size:28px;
+}
+h6 {
+	font-size:24px;
+}
+p, li {
+	font-size: 16px;
+	line-height: 1.5;
+}
+p {
+    margin: 0 0 15px;
+}

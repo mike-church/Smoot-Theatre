@@ -17,9 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div id="tribe-events-content" class="tribe-events-list">
 
 	<!-- List Title -->
-	<?php do_action( 'tribe_events_before_the_title' ); ?>
-	<h2 class="tribe-events-page-title"><?php echo tribe_get_events_title() ?></h2>
-	<?php do_action( 'tribe_events_after_the_title' ); ?>
+
 
 	<!-- Notices -->
 	<?php tribe_events_the_notices() ?>
