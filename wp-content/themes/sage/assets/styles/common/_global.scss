@@ -1,10 +1,13 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color:$midnight-blue;
-	font-weight:$font-medium;
+	font-weight: $font-medium;
+    background-color: $silver;
 }
 .main {
 	padding:0 !important;
+    width:100% !important;
+    float:none !important;
 }
 /*header {
 	height:60px;

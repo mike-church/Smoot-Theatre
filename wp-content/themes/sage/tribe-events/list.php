@@ -21,7 +21,9 @@ do_action( 'tribe_events_before_template' );
 <!-- Main Events Content -->
 <div class="container">
 	<div class="row">
-		<?php tribe_get_template_part( 'list/content' ); ?>
+        <div class="col-sm-12">
+	   	   <?php tribe_get_template_part( 'list/content' ); ?>
+        </div>
 	</div>
 </div>
 
