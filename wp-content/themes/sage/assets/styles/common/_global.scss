@@ -1,34 +1,55 @@
 body {
 	font-family: 'Lato', sans-serif;
+	color:$midnight-blue;
+	font-weight:$font-medium;
 }
+.main {
+	padding:0 !important;
+}
+/*header {
+	height:60px;
+	width:100%;
+	background-color:#222;
+	position:fixed;
+	z-index:100;
+}*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: inherit;
-    font-weight: 700;
+    font-weight: $font-bold;
     line-height: 1.1;
     color: inherit;
 }
 h1 {
-	font-size:61px;
+	font-size:50px;
 }
 h2 {
-	font-size:53px;
+	font-size:42px;
 }
 h3 {
-	font-size:40px;
+	font-size:32px;
 }
 h4 {
-	font-size:29px;
+	font-size:24px;
 }
 h5 {
-	font-size:28px;
+	font-size:18px;
 }
 h6 {
-	font-size:24px;
+	font-size:16px;
 }
 p, li {
 	font-size: 16px;
 	line-height: 1.5;
+	font-weight:400;
 }
 p {
     margin: 0 0 15px;
+}
+a {
+	color:$peter-river;
+	text-decoration:none !important;
+}
+a:hover {
+	color:$belize-hole;
+	text-decoration:none;
 }

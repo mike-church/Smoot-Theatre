@@ -6,78 +6,75 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Color swatches
-@turquoise:                 	#1abc9c;
-@green-sea:                 	#16a085;
+$turquoise:                 	#1abc9c;
+$green-sea:                 	#16a085;
 
-@emerald:                   	#2ecc71;
-@nephritis:                 	#27ae60;
+$emerald:                   	#2ecc71;
+$nephritis:                 	#27ae60;
 
-@peter-river:               	#3498db;
-@belize-hole:               	#2980b9;
+$peter-river:               	#3498db;
+$belize-hole:               	#2980b9;
 
-@amethyst:                  	#9b59b6;
-@wisteria:                  	#8e44ad;
+$amethyst:                  	#9b59b6;
+$wisteria:                  	#8e44ad;
 
-@wet-asphalt:               	#34495e;
-@midnight-blue:             	#2c3e50;
+$wet-asphalt:               	#34495e;
+$midnight-blue:             	#2c3e50;
 
-@sun-flower:                	#f1c40f;
-@orange:                    	#f39c12;
+$sun-flower:                	#f1c40f;
+$orange:                    	#f39c12;
 
-@carrot:                    	#e67e22;
-@pumpkin:                   	#d35400;
+$carrot:                    	#e67e22;
+$pumpkin:                   	#d35400;
 
-@alizarin:                  	#e74c3c;
-@pomegranate:               	#c0392b;
+$alizarin:                  	#e74c3c;
+$pomegranate:               	#c0392b;
 
-@clouds:                    	#ecf0f1;
-@silver:                    	#bdc3c7;
+$clouds:                    	#ecf0f1;
+$silver:                    	#bdc3c7;
 
-@concrete:                  	#95a5a6;
-@asbestos:                  	#7f8c8d;
+$concrete:                  	#95a5a6;
+$asbestos:                  	#7f8c8d;
 
 // Grays
-@gray-dark:                     #222222;
-@gray-light:                	@silver;
-@inverse:                   	white;
+$gray-dark:                     #222222;
+$gray-light:                	$silver;
+$inverse:                   	white;
 
 // Brand Colors
-@brand-primary:         		@peter-river;
-@brand-success:         		@emerald;
-@brand-info:         			@turquoise;
-@brand-warning:         		@sun-flower;
-@brand-danger:         			@alizarin;
+$brand-primary:         		$peter-river;
+$brand-success:         		$emerald;
+$brand-info:         			$turquoise;
+$brand-warning:         		$sun-flower;
+$brand-danger:         			$alizarin;
 
-@btn-primary-color:             #fff;
-@btn-primary-bg:                @brand-primary;
-@btn-primary-border:            @btn-primary-bg;
+$btn-primary-color:             #fff;
+$btn-primary-bg:                $brand-primary;
+$btn-primary-border:            $btn-primary-bg;
 
-@btn-success-color:             #fff;
-@btn-success-bg:                @brand-success;
-@btn-success-border:            @btn-success-bg;
+$btn-success-color:             #fff;
+$btn-success-bg:                $brand-success;
+$btn-success-border:            $btn-success-bg;
 
-@btn-success-color:             #fff;
-@btn-success-bg:                @brand-success;
-@btn-success-border:            @btn-success-bg;
+$btn-success-color:             #fff;
+$btn-success-bg:                $brand-success;
+$btn-success-border:            $btn-success-bg;
 
-@btn-info-color:                #fff;
-@btn-info-bg:                   @brand-info;
-@btn-info-border:               @btn-info-bg;
+$btn-info-color:                #fff;
+$btn-info-bg:                   $brand-info;
+$btn-info-border:               $btn-info-bg;
 
-@btn-warning-color:             #fff;
-@btn-warning-bg:                @brand-warning;
-@btn-warning-border:            @btn-warning-bg;
+$btn-warning-color:             #fff;
+$btn-warning-bg:                $brand-warning;
+$btn-warning-border:            $btn-warning-bg;
 
-@btn-danger-color:              #fff;
-@btn-danger-bg:                 @brand-danger;
-@btn-danger-border:             @btn-danger-bg;
+$btn-danger-color:              #fff;
+$btn-danger-bg:                 $brand-danger;
+$btn-danger-border:             $btn-danger-bg;
 
 // Font Weight
-@font-light:					300;
-@font-medium:					400;
-@font-bold:						600;
+$font-light:					300;
+$font-medium:					400;
+$font-bold:						700;
 
-@xxs: ~'max-width: 377px';
-@xs:  ~'max-width: @{screen-xs-max}';
-@sm:  ~'max-width: @{screen-sm-max}';
-@md:  ~'max-width: @{screen-md-max}';
+

@@ -23,12 +23,12 @@ $organizer = tribe_get_organizer();
 
 ?>
 
-<!-- Event Cost -->
+<!-- Event Cost
 <?php if ( tribe_get_cost() ) : ?>
 	<div class="tribe-events-event-cost">
 		<span><?php echo tribe_get_cost( null, true ); ?></span>
 	</div>
-<?php endif; ?>
+<?php endif; ?> -->
 
 <!-- Event Title -->
 <?php do_action( 'tribe_events_before_the_event_title' ) ?>
@@ -61,6 +61,7 @@ $organizer = tribe_get_organizer();
 <?php do_action( 'tribe_events_after_the_meta' ) ?>
 
 <!-- Event Image -->
+<p><img src="<?php echo blog_feature_image('full', 200, 200); ?>" class="img-circle"></p>
 <?php echo tribe_event_featured_image( null, 'medium' ) ?>
 
 <!-- Event Content -->
