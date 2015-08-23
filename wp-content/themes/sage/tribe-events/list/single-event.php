@@ -61,7 +61,7 @@ $organizer = tribe_get_organizer();
 <?php do_action( 'tribe_events_after_the_meta' ) ?>
 
 <!-- Event Image -->
-<p><img src="<?php echo blog_feature_image('full', 200, 200); ?>" class="img-circle"></p>
+<p><img src="<?php echo custom_feature_image('full', 200, 200); ?>" class="img-circle"></p>
 <?php echo tribe_event_featured_image( null, 'medium' ) ?>
 
 <!-- Event Content -->

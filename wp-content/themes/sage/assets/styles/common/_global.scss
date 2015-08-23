@@ -2,7 +2,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	color:$midnight-blue;
 	font-weight: $font-medium;
-    background-color: $silver;
+    background-color: white;
 }
 .main {
 	padding:0 !important;
@@ -43,7 +43,6 @@ h6 {
 p, li {
 	font-size: 16px;
 	line-height: 1.5;
-	font-weight:400;
 }
 p {
     margin: 0 0 15px;
